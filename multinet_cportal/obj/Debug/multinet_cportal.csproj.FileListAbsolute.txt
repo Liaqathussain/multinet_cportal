@@ -1,0 +1,8 @@
+c:\users\liaqat.hussain\documents\visual studio 2010\Projects\multinet_cportal\multinet_cportal\bin\multinet_cportal.dll
+c:\users\liaqat.hussain\documents\visual studio 2010\Projects\multinet_cportal\multinet_cportal\bin\multinet_cportal.pdb
+c:\users\liaqat.hussain\documents\visual studio 2010\Projects\multinet_cportal\multinet_cportal\obj\Debug\multinet_cportal.dll
+c:\users\liaqat.hussain\documents\visual studio 2010\Projects\multinet_cportal\multinet_cportal\obj\Debug\multinet_cportal.pdb
+D:\Liaqat Data D\Project Backup\multinet_cportal\multinet_cportal\bin\multinet_cportal.dll
+D:\Liaqat Data D\Project Backup\multinet_cportal\multinet_cportal\bin\multinet_cportal.pdb
+D:\Liaqat Data D\Project Backup\multinet_cportal\multinet_cportal\obj\Debug\multinet_cportal.dll
+D:\Liaqat Data D\Project Backup\multinet_cportal\multinet_cportal\obj\Debug\multinet_cportal.pdb

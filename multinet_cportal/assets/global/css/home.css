@@ -1,0 +1,451 @@
+body
+{
+    background: #F9F9F9;
+} 
+    
+/* TOP MENU */
+.active-menu.active a:after
+{
+    content : "";
+    position: absolute;
+    left    : 28px;
+    bottom  : -7px;
+    height  : 1px;
+    width   : 50%;  /* or 100px */
+    border-bottom: 7px solid #F48120;
+}
+
+.active-tab a
+{
+    font-weight: bold;
+    color: white !important;
+}
+
+.general-menu a
+{
+    color: grey;
+}
+
+.general-menu a:hover:after
+{
+    position: absolute;
+    top: 80px;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 39.5%; /* Change this to whatever width you want. */
+    border-bottom: 7px solid #F48120; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.general-menu a:hover
+{
+    color: #F48120 !important;
+}
+    
+.general-menu-long a
+{
+    color: grey;
+}
+
+.general-menu-long a:hover:after
+{
+    position: absolute;
+    top: 80px;
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 65%; /* Change this to whatever width you want. */
+    border-bottom: 7px solid #F48120; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.general-menu-long a:hover
+{
+    color: #F48120 !important;
+}
+
+.special-menu a
+{
+    color: #009DAD;
+    margin-left: 100px;
+}
+    
+/* TOP MENU END */
+
+/* TABBED CONTENT Z-INDEXES */
+.one
+{
+    z-index: 0;
+    
+}
+    
+.two
+{
+    z-index: 1;
+    -webkit-box-shadow: inset 18px -2px 36px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 18px -2px 36px -27px rgba(0,0,0,0.75);
+    box-shadow: inset 18px -2px 36px -27px rgba(0,0,0,0.75);
+}
+    
+.three
+{
+    z-index: 2;
+    -webkit-box-shadow: inset 18px -2px 36px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 18px -2px 36px -27px rgba(0,0,0,0.75);
+    box-shadow: inset 18px -2px 36px -27px rgba(0,0,0,0.75);
+}
+/* TABBED CONTENT Z-INDEXES END */
+    
+/* GENERAL CSS */
+.border-radius
+{
+    border-radius: 4px;
+}
+    
+.margin-of-tabs
+{
+    margin-left: -2px;
+}
+/* GENERAL CSS END */
+    
+/* TABBED CONTENT AREA */
+.tab-content
+{
+    border: 1px solid #009DAD;
+    margin-top: -10px;
+    margin-left: -2px;
+    height: 470px;
+    padding: 24px;
+    border-radius: 4.5px;
+    border-top-left-radius: 0px;
+    overflow-y:scroll;
+}
+   
+/* BOXES INSIDE TABBED CONTENT */
+.tab-content .box-inside-tabs-active
+{
+    min-height: 100px;
+    height: auto;
+    padding: 12px 14px 1px 16px;
+    margin-top: 10px;
+    border-right: 25px solid #8CC640;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+}
+
+.box-inside-tabs-inactive
+{
+    min-height: 100px;
+    height: auto;
+    padding: 12px 14px 1px 16px;
+    margin-top: 10px;
+    border-right: 25px solid #D3313D;
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+}
+    
+.box-inside-tabs:last-child
+{
+    min-height: 100px;
+    height: auto;
+    padding: 12px 14px 1px 16px;
+    margin-top: 15px;
+    border-right: 25px solid #8CC640;
+    border-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+} 
+/* BOXES INSIDE TABBED CONTENT END */
+    
+[class^="fa-"]:not(.fa-stack), [class^="glyphicon-"], [class^="icon-"], [class*=" fa-"]:not(.fa-stack), [class*=" glyphicon-"], [class*=" icon-"]
+{
+    font-size: 20px !important;
+}
+    
+.star
+{
+    margin-top: 10px;
+    width: 18px;
+    color: #009DAD;
+    background: url("../../assets/global/img/star.png") no-repeat;
+}
+    
+.mobile
+{
+    margin-top: -4px;
+    font-size: 30.76px;
+    font-weight: bold;
+    color: #F48120;
+}
+    
+.branch
+{
+    font-size: 22.23px;
+    font-weight: bold;
+    color: #6D6E71;
+    margin-top: -10px;
+    letter-spacing: 0.7px;
+}
+    
+.address
+{
+    font-size: 22.23px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #939598;
+    margin-top: -8px;
+    margin-bottom: 24px; 
+    width: 50%;
+}
+    
+.status
+{
+    font-size: 17.48px;
+    font-weight: 600;
+    margin-top: 0px;
+    color: #4D4D4D;
+} 
+    
+.status-payment
+{
+    color: #4D4D4D;
+    font-size: 17.48px;
+    font-weight: 600;
+}
+    
+.status-label-active
+{
+    color: #8CC63F;
+}
+    
+.status-label-inactive
+{
+    color: #D3313D;
+}
+
+.month-year
+{
+    font-size: 17.48px;
+    font-weight: 600;
+    color: #F48120;
+}
+    
+.amount
+{
+    font-size: 17.48px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #6D6E71;
+}
+    
+.scrollbar
+{
+	overflow-y: scroll;    
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	border-radius: 3.5px;
+    width: 9px;
+	background-color: #f2f2f2;
+    border: 1px solid #A7A9AC;
+}
+    
+#style-1::-webkit-scrollbar
+{
+    border-radius: 3.5px;
+	width: 9px;
+	background-color: #f2f2f2;
+    border: 1px solid #A7A9AC;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 3.5px;
+    width: 9px;
+	background-color: #A7A9AC;
+}
+
+.active-tab.active > a
+{
+    background-color: #F48120 !important;
+    color: white !important;
+    letter-spacing: 0.2px;
+}
+    
+.green-haze.btn {
+    color: #FFFFFF;
+    background-color: #009DAD;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+    
+.active-tab > a
+{
+    color: lightgray !important;
+}
+    
+.nav-tabs > li > a, .nav-pills > li > a
+{
+    border-radius: 11px 11px 0px 0px;
+}
+   
+.page-content 
+{
+    background: #F9F9F9;
+    padding: 15px 0 80px;
+    position: relative;
+    top: -10px;
+}
+    
+.page-footer 
+{
+  background: #f2f2f2;
+  color: #58595B;
+  border-top: 1px solid lightgrey;
+  position: fixed;
+  left: 0;
+  bottom: 0;  
+  width: 100%;
+}
+    
+.copyright
+{
+    font-size: 14.27px;
+    font-weight: 400;
+}
+    
+.uan-number
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+    
+.green-stat
+{
+    background: url('../../global/img/fourth-box.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+    
+.orange-stat
+{
+    background: url('../../global/img/third-box.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+    
+.red-stat
+{
+    background: rgba(203,0,0,1);
+    background: -moz-linear-gradient(left, rgba(203,0,0,1) 0%, rgba(146,0,5,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,0,0,1)), color-stop(100%, rgba(146,0,5,1)));
+    background: -webkit-linear-gradient(left, rgba(203,0,0,1) 0%, rgba(146,0,5,1) 100%);
+    background: -o-linear-gradient(left, rgba(203,0,0,1) 0%, rgba(146,0,5,1) 100%);
+    background: -ms-linear-gradient(left, rgba(203,0,0,1) 0%, rgba(146,0,5,1) 100%);
+    background: linear-gradient(to right, rgba(203,0,0,1) 0%, rgba(146,0,5,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb0000', endColorstr='#920005', GradientType=1 );
+}
+ 
+.blue-stat
+{
+    background: rgba(101,154,184,1);
+    background: -moz-linear-gradient(left, rgba(101,154,184,1) 36%, rgba(83,143,179,1) 53%, rgba(55,125,171,1) 79%, rgba(55,125,171,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(36%, rgba(101,154,184,1)), color-stop(53%, rgba(83,143,179,1)), color-stop(79%, rgba(55,125,171,1)), color-stop(100%, rgba(55,125,171,1)));
+    background: -webkit-linear-gradient(left, rgba(101,154,184,1) 36%, rgba(83,143,179,1) 53%, rgba(55,125,171,1) 79%, rgba(55,125,171,1) 100%);
+    background: -o-linear-gradient(left, rgba(101,154,184,1) 36%, rgba(83,143,179,1) 53%, rgba(55,125,171,1) 79%, rgba(55,125,171,1) 100%);
+    background: -ms-linear-gradient(left, rgba(101,154,184,1) 36%, rgba(83,143,179,1) 53%, rgba(55,125,171,1) 79%, rgba(55,125,171,1) 100%);
+    background: linear-gradient(to right, rgba(101,154,184,1) 36%, rgba(83,143,179,1) 53%, rgba(55,125,171,1) 79%, rgba(55,125,171,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#659ab8', endColorstr='#377dab', GradientType=1 );
+}
+    
+.dropdown-menu li > a 
+{
+    padding: 4px 51px;
+    color: #939598;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.first-child-dropdown
+{
+    border-bottom: 1px solid #BCBEC0;
+}
+    
+.dropdown > .dropdown-menu:after, .dropdown-toggle > .dropdown-menu:after, .btn-group > .dropdown-menu:after 
+{
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid #fff;
+    border-left: 0px solid transparent;
+    content: '';
+}
+    
+.dropdown > .dropdown-menu:before, .dropdown-toggle > .dropdown-menu:before, .btn-group > .dropdown-menu:before 
+{
+    position: absolute;
+    top: -8px;
+    left: 9px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid #e0e0e0;
+    border-left: 0px solid transparent;
+    content: '';
+}
+    
+.dropdown > .dropdown-menu, .dropdown-toggle > .dropdown-menu, .btn-group > .dropdown-menu 
+{
+    margin-top: 1px;
+}
+    
+a:link 
+{
+    text-decoration: none;
+}
+    
+.icons-dropdown
+{
+    position: absolute;
+    left: 80%;
+}
+    
+.selectdiv 
+{
+    width: 100%;
+    padding-right: 32px;
+}
+
+.selectdiv:after 
+{
+    content: '\f078';
+    color: white;
+    font: normal normal normal 12px/1 FontAwesome;
+    right: 14px;
+    top: 10px;
+    position: absolute;
+    pointer-events: none;
+    z-index: 10;
+}
+    
+.selectdiv button
+{
+    padding-right: 40px;
+}
